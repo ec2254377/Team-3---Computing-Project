@@ -1,0 +1,1211 @@
+/* COLOR SCHEMES*/
+
+/* green #3e759
+sage #6175fb
+white #ffffff
+black #000000
+grey #d9d9d9
+light grey #ccc
+dark green #05361a
+shade of green #2a8c54
+blue #28666e*/
+
+
+
+
+/* EARTHLY EATS PAGE*/
+/* NAVIGATAION MENU CSS*/
+.header-fashion {
+  background-image: url(images/truck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom:80px;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+@media (min-width:768px) {
+  .header-fashion {
+    padding-bottom:120px;
+  }
+ 
+}
+
+.navbar-brand{
+ 
+  text-align:center;
+}
+
+.container-n{
+  margin-left:5rem;
+}
+
+
+
+
+
+
+.header-fashion .navbar {
+  background:transparent;
+  padding-top:.75rem;
+  padding-bottom:.75rem;
+  color:#fff;
+  border-radius:0;
+  box-shadow:none;
+  border:none;
+  text-align:center;
+
+}
+
+
+
+.header-fashion .navbar .navbar-brand {
+  font-weight:bold;
+  color:inherit;
+
+}
+
+
+.header-fashion .navbar .navbar-collapse {
+  border-top:1px solid rgba(255,255,255,0.3);
+  margin-top:.5rem;
+}
+
+@media (min-width:768px) {
+  .header-fashion .navbar .navbar-collapse {
+    border-color:transparent;
+   
+  }
+}
+
+
+
+.header-fashion .navbar .navbar-collapse span .login {
+  color:#d9d9d9;
+  margin-right:.5rem;
+  text-decoration:none;
+}
+
+.header-fashion .navbar .navbar-collapse span .login:hover {
+  color:#3e7c59;
+}
+
+.header-fashion .navbar .navbar-toggler {
+  border-color:rgba(255,255,255,0.3);
+}
+
+.header-fashion .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
+  background:none;
+}
+
+.header-fashion .navbar .navbar-nav a.active, .header-blue .navbar .navbar-nav > .show .dropdown-item {
+  background:none;
+  box-shadow:none;
+}
+
+@media (min-width: 768px) {
+  .header-fashion .navbar-nav .nav-link {
+    padding-left:.7rem;
+    padding-right:.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-fashion .navbar-nav .nav-link {
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+  }
+}
+
+.header-fashion .dropdown-item{
+  font-family: "Dawning of a New Day", cursive;
+  line-height: 2;
+
+}
+
+
+
+.header-fashion .icon{
+  width:25px;
+  height:25px;
+}
+
+.header-fashion .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top:-5px;
+  box-shadow:0 4px 8px rgba(0,0,0,.1);
+  background-color: #fff;
+  border-radius:12px;
+ 
+  
+}
+
+.header-fashion .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
+  line-height:2;
+  color:#37434d;
+}
+
+.header-fashion .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
+  background:#ebeff1;
+}
+
+.header-fashion .action-button, .header-blue .action-button:not(.disabled):active {
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:40px;
+  color:#ebeff1;
+  box-shadow:none;
+  text-shadow:none;
+  padding:.3rem .8rem;
+  background:transparent;
+  transition:background-color 0.25s;
+  outline:none;
+}
+
+.header-fashion .action-button:hover {
+  color:#fff;
+}
+
+.header-fashion .navbar .form-inline label {
+  color:#d9d9d9;
+}
+
+.header-fashion .navbar .form-inline .search-field {
+  display:inline-block;
+  width:80%;
+  background:none;
+  border:none;
+  border-bottom:1px solid transparent;
+  border-radius:0;
+  color:#ccc;
+  box-shadow:none;
+  color:inherit;
+  transition:border-bottom-color 0.3s;
+}
+
+.header-fashion .navbar .form-inline .search-field:focus {
+  border-bottom:1px solid #ccc;
+}
+
+.header-fashion .hero {
+  margin-top:10px;
+  text-align:left;
+}
+
+@media (max-width:1200px) {
+
+
+  .header-fashion .hero p{
+    width:100%;
+  }
+
+  .header-fashion .hero h1{
+    font-size:40px;
+  }
+}
+
+@media (max-width:992px){
+  .header-fashion .hero{
+    text-align:center;
+    padding-top:60px;
+  }
+
+  .header-fashion .hero .row h1{
+    font-size:40px;
+  }
+}
+
+.header-fashion .hero h1 {
+  color:#fff;
+  font-size:50px;
+  margin-top:5px;
+  margin-bottom:15px;
+  font-weight:300;
+  line-height:1.4;
+  font-family: "Mynerve", cursive;
+}
+
+@media (min-width:992px) {
+  .header-fashion .hero h1 {
+    margin-top:190px;
+    margin-bottom:24px;
+    line-height:1.2;
+  
+  }
+}
+
+.header-fashion .hero p {
+  color:rgba(255,255,255,0.8);
+  font-size:20px;
+  margin-bottom:30px;
+  font-weight:390;
+  
+}
+
+.header-fashion .action-button a{
+  text-decoration: none;
+  color:#ffffff;
+}
+
+
+.heading{
+  color: #3e7c59;
+  font-size:30px;
+  text-align:center;
+  text-shadow: 0 0 20px #3e7c59;
+
+}
+
+.sub-heading{
+font-family: "Kavoon", serif;
+color: #3e7c59;
+font-size:30px;
+text-align:center;
+text-shadow: 0 0 20px #3e7c59;
+}
+
+.container .eats-1{
+  text-align:center;
+  font-size:18px;
+}
+
+/* ADDING RESPONSIVITY TO THE NAVIGATION MENU*/
+
+
+/*Creating a custom break point*/
+
+@media (min-width: 1520px){
+  .navbar-expand-custom {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+      flex-direction: row;
+  }
+  .navbar-expand-custom .dropdown-menu {
+      position: absolute;
+  }
+  .navbar-expand-custom .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+  }
+  .navbar-expand-custom > .container {
+      flex-wrap: nowrap;
+  }
+  .navbar-expand-custom .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+  }
+  .navbar-expand-custom .navbar-toggler {
+      display: none;
+  }
+}
+
+/*Adding reponsivenss to the dropdown menu*/
+
+
+@media (max-width:1520px){
+  .container-n{
+    margin:auto;
+    width:100%;
+  
+  }
+
+  .header-fashion .navbar .navbar-collapse span .login{
+    display:block;
+    margin-left:auto;
+    
+  }
+
+  .header-fashion .navbar .navbar-nav > li > .dropdown-menu{
+    width:30%;
+    margin:auto;
+    text-align:center;
+    height:auto;
+  }
+
+ 
+
+
+}
+
+@media(max-width:1500px){
+  .header-fashion .navbar .form-inline .form-group{
+    margin:auto;
+    width:20%;
+  }
+}
+
+@media (max-width:800px){
+  .header-fashion .navbar .navbar-nav > li > .dropdown-menu{
+    width:60%;
+    margin:auto;
+    text-align:center;
+    height:auto;
+  }
+
+  .header-fashion .navbar .form-inline .form-group{
+    margin:auto;
+    width:50%;
+  }
+}
+
+@media (max-width:600px){
+  .header-fashion .navbar .navbar-nav > li > .dropdown-menu{
+    width:70%;
+    margin:auto;
+    text-align:center;
+    height:auto;
+  }
+
+ 
+}
+
+
+
+/* END OF RESPONSIVENESS*/
+
+
+
+/*END OF NAVIGATION MENU*/
+
+/*STYLING THE CAROUSEL*/
+
+#insights{
+  margin:auto;
+  width:70%;
+  text-align:left;
+}
+
+#insights p{
+  font-size:18px;
+}
+
+.glow{
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-weight:500;
+  color:#ffffff;
+}
+
+@keyframes glow {
+  from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #05361a, 0 0 30px #05361a, 0 0 40px #05361a, 0 0 50px #05361a, 0 0 60px #05361a, 0 0 70px #05361a;
+  }
+  to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2a8c54, 0 0 40px #2a8c54, 0 0 50px #2a8c54, 0 0 60px #2a8c54, 0 0 70px #2a8c54, 0 0 80px #2a8c54;
+  }
+}
+
+.eats-carousel{
+
+  background-color: #617f5b;
+  height:500px;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.eats-carousel img{
+  width:550px;
+  height:400px;
+  padding:10px;
+  padding-top:50px;
+}
+
+.products-logo{
+
+  height:100px;
+  width:100px;
+}
+
+/*END OF CAROUSEL*/
+
+/***************VIDEO***********************/
+
+.content-video{
+  text-align:center;
+}
+
+.content-video h1{
+  font-size:35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
+
+.video{
+  margin:auto;
+  width:60%;
+  padding-top:100px;
+}
+
+video{
+  position:relative;
+  object-fit:cover;
+  height:350px;
+  width:100%;
+
+}
+
+
+.video-background{
+  height:auto;
+ 
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url('images/food-sunflowers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row-video:after{
+  content:"";
+  clear:both;
+  display:table;
+}
+
+.col-video{
+  width:50%;
+  float:left;
+}
+
+.col-video .info{
+  padding:50px;
+  text-align:center;
+  background-color:#ffffff;
+  height:350px;
+}
+
+.info h2{
+  font-size:15px;
+  color:#3e7c59;
+  font-family: "Kavoon", serif;
+}
+
+.info h1{
+  font-size:30px;
+}
+
+ /*RESPONSIVENESS TO THE VIDEO*/
+
+ @media (max-width:1100px){
+  .video-background{
+    height:auto;
+    
+  }
+
+  .video-background .video{
+    margin:auto;
+    width:90%;
+  }
+
+  .video-background video{
+    height:350px;
+   
+  }
+
+  .video-background .row-video .col-video .info{
+    height:350px;
+
+  }
+
+  .video-background .video .row-video .col-video .info{
+   
+    padding:40px;
+  }
+
+ 
+} 
+
+@media (max-width:992px){
+  .video-background .video{
+    margin:auto;
+    width:70%;
+  }
+}
+
+@media (max-width:810px){
+  .video-background .video .row-video .col-video{
+    width:100%;
+  }
+
+  .video-background .video{
+    margin:auto;
+    width:90%;
+  }
+}
+
+
+ 
+
+  /*FOOD SUSTAINABILITY SYSTEMS*/
+
+  .trending-1{
+   
+    height:140px;
+    width:100%;
+  }
+
+  .trending{
+    background-color: #617f5b;
+    height:140px;
+    width:100%;
+  }
+  
+  .h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 80px;
+   
+  }
+  
+  .h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    right: 0;
+    bottom: -20px;
+  }
+
+  .container-systems{
+    margin:auto;
+    width:80%;
+  }
+
+  .systems{
+    margin:auto;
+    width:60%;
+    text-align:center;
+    font-size:18px;
+  }
+
+  .col-systems{
+    float:left;
+    width:33.33%;
+    padding:5px;
+  }
+
+  .col-systems p{
+    text-align:center;
+  }
+
+  .col-systems h1{
+    font-size:22px;
+    text-align:center;
+    font-family:'Source Sans Pro', sans-serif;
+  }
+
+  .col-systems .material-symbols-outlined{
+    font-size:50px;
+   display:flex;
+   justify-content:center;
+   color:#3e7c59;
+
+  
+
+  }
+
+  .row-systems:after{
+    content:"";
+    clear:both;
+    display:table;
+  }
+
+  /*ADDING RESPONSIVENESS TO SUSTAINABLE SYSTEMS*/
+
+  @media (max-width:1200px){
+    .container-systems{
+      margin:auto;
+      width:95%;
+    }
+
+    .col-systems{
+      padding:10px;
+    }
+
+    .systems{
+      font-size:17px;
+    }
+  }
+
+  @media (max-width:992px){
+    .col-systems{
+      width:100%;
+    }
+
+    .systems{
+      width:80%;
+    }
+
+    .col-systems p{
+      margin:auto;
+      width:60%;
+      text-align:center;
+    }
+
+    #about .container{
+      margin:auto;
+      width:90%;
+    }
+
+    #global-impact .eats-1{
+      font-size:16px;
+    }
+
+    #insights p{
+     font-size:16px;
+    }
+
+    .eats-carousel{
+      height:400px;
+    }
+
+    .eats-carousel img{
+      height:300px;
+      width:300px;
+    }
+
+   
+  }
+
+  /*RESPONSIVENSS ON A MOBILE PHONE*/
+
+  @media (max-width:600px){
+    .col-systems p{
+      width:100%;
+    }
+
+    .systems{
+      width:90%;
+      margin:auto;
+      font-size:15px;
+
+    }
+
+  
+    #about .container{
+      margin:auto;
+      width:100%;
+    }
+
+    #about .container .eats-1{
+      font-size:16px;
+    }
+
+    #insights .glow{
+      font-size:28px;
+    }
+  }
+  
+  
+
+
+ /*STYLING THE CAROUSEL*/
+
+ /* earthly eats */
+
+.container-carousel {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 900px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-caption {
+  position: absolute;
+  font-size: 15px;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  height:200px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:rgb(0, 0, 0,0.5);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-caption h5{
+  color:#ffffff;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:25px;
+
+  
+}
+
+.carousel-caption p{
+  font-family:'Montserrat',sans-serif;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  color: #fff;
+}
+
+/*Adding reponsivenss to the carousel container*/
+
+@media (max-width:1000px){
+  .container-carousel{
+    width:600px;
+    height:300px;
+  }
+
+  .carousel-item img{
+    width:600px;
+    height:300px;
+  }
+}
+
+@media (max-width:800px){
+  .container-carousel{
+    width:500px;
+    height:400px;
+  }
+
+  .carousel-item img{
+    width:500px;
+    height:400px;
+  }
+
+  .container-carousel .carousel-caption{
+    height:auto;
+    width:300px;
+    margin:auto;
+    width:60%;
+    
+  }
+}
+
+@media (max-width:600px){
+  .container-carousel{
+    width:400px;
+    height:300px;
+  }
+
+  .carousel-item img{
+    width:400px;
+    height:300px;
+  }
+
+
+}
+
+
+.video-container {
+  position: relative;
+  width: 500px; 
+  margin: 0 auto; 
+}
+
+
+
+.image-container {
+  width: 150px;
+}
+
+.image-container img {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  padding-left: 20px;
+}
+
+.food-col {
+  display: flex;
+  align-items: center;
+}
+
+.food-col .Ctext {
+  flex: 75%;
+  overflow: auto;
+  word-wrap: break-word;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.food-col .image-container {
+  flex: 25%;
+}
+
+.heading {
+  color: #3e7c59;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 20px #3e7c59;
+}
+
+.Ftext {
+  text-align: center;
+}
+
+
+/*STYLING OUR IMPACT SECTION*/
+
+.impact{
+  margin:auto;
+  width:70%;
+}
+
+.col-impact{
+  float:left;
+  width:50%;
+  padding:10px;
+}
+
+.col-impact .content{
+  margin-top:30px;
+}
+
+.col-impact p{
+  text-align:center;
+}
+
+.col-impact h2{
+  font-size:26px;
+  text-align:center;
+
+}
+
+.row-impact:after{
+  content:" ";
+  clear:both;
+  display:table;
+}
+
+.container .products-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  height:200px;
+
+}
+
+/*STYLING THE CARTOON IMAGE*/
+
+.impact-farm{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:450px;
+  height:400px;
+}
+
+.container h2{
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+.impact-img{
+  border-radius:10px;
+  height:300px;
+  width:450px;
+}
+
+/*ADDING RESPONSIVENESS TO THE OUT IMPACT SECTION*/
+
+@media (max-width:1350px){
+  .impact{
+    width:80%;
+  }
+}
+
+@media (max-width:1200px){
+  .impact{
+    width:95%;
+  }
+
+}
+
+@media (max-width:992px){
+  .impact-img{
+    width:350px;
+  }
+
+  .col-impact h2{
+  text-align:left;
+  }
+  .col-impact p{
+    text-align:left;
+  }
+
+  .col-impact .line{
+    display:none;
+  }
+}
+
+@media(max-width:800px){
+  .col-impact{
+    width:100%;
+  }
+
+  .col-impact .impact-img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .col-impact .content h2{
+    text-align:center;
+  }
+
+  .col-impact .content p{
+    text-align:center;
+  }
+}
+
+/*Adding style to the line*/
+
+.line{
+  height:2px;
+  background-color:#3e7c59;
+  width:100px;
+  margin-right:auto;
+  display:block;
+}
+
+
+
+  /*FOOTER*/
+
+  
+  .new_footer_area {
+    background: #fbfbfd;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #3e7c59;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #3e7c59;
+    border-color: #3e7c59;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #3e7c59;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #3e7c59;
+    border-color: #3E7C59;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #3e7c59;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background: #3e7c59;
+    border-color: #3e7c59;
+  color:white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+    
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 250px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@media (max-width:992px){
+
+  .new_footer_top .f-title {
+    padding-top:28px;
+  
+}
+}
+ 
+
+  

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the About Us page,that is mainly focused on providing a brief description about Sustainable Growth Partners. It 
+    provides a detailed description of the company's mission,vision,history as well as its values and policies. Employee testimonials are also 
+    included within this page, including profile cards and volunteer details">
+    <meta name="keywords" content="About Us, Our Mission, Our Vision, Our Histroy, Values and Policies, Timeline, Testimonials ,Volunteer experience, Volunteers, Excecutive 
+    Leadership, managers, directors,ceo,coo , environmentalist">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3e3d0a5758.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="style-aboutus.css">
+    <script>
+      $(function () {
+    
+    // Initate masonry grid
+    var $grid = $('.gallery-wrapper').masonry({
+        temSelector: '.grid-item',
+        columnWidth: '.grid-sizer',
+        percentPosition: true,
+    });
+    
+    // Initate imagesLoaded
+    $grid.imagesLoaded().progress( function() {
+        $grid.masonry('layout');
+    });
+    
+    });
+    </script>
+</head>
+
+<body>
+    <div>
+      <!-- NAVIGATION MENU-->
+        <div class="header-blue">
+            <nav class="navbar navbar-dark navbar-expand-custom navigation-clean-search">
+                <div class="container-n"><a class="navbar-brand" href="#"><img src="images/SGP-LOGO.png" alt="company-logo">Sustainable Growth Partners</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"  href="products.html">Products and Services </a>
+                                <div class="dropdown-menu" role="menu">
+                                  <a class="dropdown-item" role="presentation"  style = "font-size:20px; color:#3e7c59;font-weight:bold;" href="products.html">What Defines Us</a>
+                                  <a class="dropdown-item" role="presentation" href="products.html#source"><img class ="icon" src = "images/recycling-icon.png"> Pillars of Sourcing</a>
+                                  <a class="dropdown-item" role="presentation" href="products.html#shop"><img class ="icon" src = "images/shoes-icon.png"> Eco Friendly Shop</a>
+                                  <a class="dropdown-item" role="presentation" href="products.html#nation"><img class ="icon" src = "images/grape-icon.png"> Feeding the Nation</a>
+                                  <a class="dropdown-item" role="presentation" href="products.html#services"><img class ="icon" src = "images/earth-icon.png"> Our Services</a>
+                                  
+                            </li>
+                            <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Net Zero Waste </a>
+                              <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation"  style = "font-size:20px; color:#3e7c59;font-weight:bold;" href="zero-waste.html">Be a recycler, Be a Saver</a>
+                                <a class="dropdown-item" role="presentation" href="zero-waste.html#management">Waste Management System</a>
+                                <a class="dropdown-item" role="presentation" href="zero-waste.html#service">Commercial Waste</a>
+                                <a class="dropdown-item" role="presentation" href="zero-waste.html#process">Collection Process</a>
+                                <a class="dropdown-item" role="presentation" href="zero-waste.html#Volunteer-Experience">Volunteer Experience</a>
+                              </div>
+                                
+                          </li>
+                          <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Earthly Eats </a>
+                            <div class="dropdown-menu" role="menu">
+                              <a href="earthly_eats.html" class="dropdown-item" role="presentation"  style = "font-size:20px; color:#3e7c59;font-weight:bold;" >Our Food Insights</a>
+                              <a href="earthly_eats.html#systems" class="dropdown-item" role="presentation" >Food Sustainability Systems</a>
+                              <a href="earthly_eats.html#production" class="dropdown-item" role="presentation" >Eco-Friendly Production</a>
+                              <a href="earthly_eats.html#global-impact" class="dropdown-item" role="presentation" >Our Global Impact</a>
+                            </div>
+                              
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Refashionable Threads </a>
+                          <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation"  style = "font-size:20px; color:#3e7c59;font-weight:bold;" href="sustainable_fashion.html">Our Sustainable Approach</a>
+                            <a class="dropdown-item" role="presentation" href="sustainable_fashion.html#linked-material">Material Selection</a>
+                            <a class="dropdown-item" role="presentation" href="sustainable_fashion.html#ecowear">Eco-wear Production</a>
+                            <a class="dropdown-item" role="presentation" href="sustainable_fashion.html#timeline">Recycling Essentials</a>
+                            
+                          </div>
+                            
+                      </li>
+                      <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">About Us </a>
+                        <div class="dropdown-menu" role="menu">
+                          <a class="dropdown-item" role="presentation"  style = "font-size:20px; color:#3e7c59;font-weight:bold;" href="aboutus.html">Who We Are</a>
+                          <a class="dropdown-item" role="presentation" href="aboutus.html#linked-history">Our History</a>
+                          <a class="dropdown-item" role="presentation" href="aboutus.html#values">Our Values and Policies</a>
+                          <a class="dropdown-item" role="presentation" href="aboutus.html#testimonials">Testimonials</a>
+                          <a class="dropdown-item" role="presentation" href="aboutus.html#people">Our People</a>
+
+                        </div>
+                          
+                    </li>
+                      <li class="nav-item" role="presentation"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <form class="form-inline mr-auto" target="_self">
+                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
+                        </form><span class="navbar-text"> <a href="#" class="login">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></div>
+                </div>
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                        <h1>ABOUT US</h1>
+                        <p> We believe conservation is best advanced when diverse teams,
+                           partners and local communities are working together to better understand and protect our planet. </p><button class="btn btn-light btn-lg action-button" type="button"><a href=aboutus.html#about-heading>Learn More</a> </button></div>
+                    </div>
+                        
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
+    <div id="about-heading">
+    <br><br>
+
+    <!-- HEADING SECTION-->
+    
+
+    <div class="container-heading">
+
+      <h1> Sustainable Growth Partners is a global environmental non-profit working to create a world where nature and people can thrive.</h1>
+    
+      <p> Founded in Greece in 2007, Sustainable Growth Partners(SGP) has grown to become one of the most effective and innovative environmental
+        organisations in the world. Thanks to more than a million members and dedicated leaders, the company has been able to focus on creating green spaces, promoting sustainable
+        clothing and conserving natural resources.
+      </p>
+      <br>
+
+     <hr>
+    </div>
+    </div>
+
+    <div id="mission">
+
+    <div class="mission">
+      <div class="row-mission">
+        <div class="col-mission">
+          <div class="content">
+          <h1 class="mission-h1"> OUR MISSION</h1>
+          <h1>Crafting a Cleaner, Greener Tomorrow.</h1>
+          <p> To conserve natural resources and promote a sustainable future.We aim to overcome the biggest challenge facing humanity and reverse global warming. 
+            </p>
+        </div>
+        </div>
+        <div class="col-mission">
+          <img src="images/mission-image.avif" alt="globe">
+        </div>
+      </div>
+
+      <div class="row-mission">
+
+        <div class="col-mission">
+          <img src="images/ourmission.jpg" alt="sustainable-bag">
+        </div>
+        <div class="col-mission">
+          <div class="content">
+          <h1 class="mission-h1">OUR VISION</h1>
+          <h1> Building a Better World, One Business at a Time.</h1>
+          <p> A world where the diversity of life thrives and people act to conserve nature for its own sake 
+            and its ability to fulfil our needs and enrich our lives.
+          </p>
+        </div>
+        </div>
+        
+      </div>
+      </div>
+    </div>
+
+    <div id="linked-history">
+
+    <div class="trending">
+      <br>
+        <h2 class="h2">OUR <b>History</b></h2>
+        </div>
+
+        <div class="history">
+          <br><br>
+          <p>Sustainable Growth Partners has been operating since 2007 with over 100 leading scientists, committed citizens and dedicated 
+            leaders with a vision of protecting and caring for nature. The company has been able to change the lives of over 3000 people across 40 different countries and has since seen a rise in volunteers within the company.
+            Since the development of SGP there 
+          has been a 4% decrease in climate change issues from actions that have been made by the company.
+        </p>
+
+
+        </div>
+
+        <div class="container">
+	<div class="row">
+		<div class="col-l6-6 mx-auto">
+			<h2 class="timeline">Sustainable Growth Partners Throughout the years</h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="img-box"><img src="images/volunteers.jpg" alt="Volunteers"></div>
+						<p class="testimonial">Before the development of SGP in 2007, there had been adverse effects on the environment with a 5% incease
+              in waste pollution and global warming in gGreece. After Mike, Sebastian and Jollene noticed the impacts of greenhouse gases across the planet, they made
+              the decision to start their company with only 5 members in it, with hopes of introducing policies and actions against global warming.  </p>
+						<p class="overview"><b>2007 </b>, Foundation of Sustainable Growth Partners</p>
+					</div>
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/hands_together.jpg" alt="Holding Hands"></div>
+						<p class="testimonial">The creation of the company created shock waves in the sustainable development industry as they began to change 
+              the way that the world views natural resources and materials. About 50% of the population including the company, began to diversify their 
+              approach towards sorucing natural ingredients with a goal of restoring biodivesity.
+            </p>
+						<p class="overview"><b>2007 - 2012</b>, Changing the World</p>
+					</div>
+					<div class="carousel-item">
+						<div class="img-box"><img src="images/volunteers-backgrouund.jpg" alt="Planting Trees"></div>
+						<p class="testimonial"> The company has been able to tranform a degrading rainforest in Africa, saving over 2600 species from extinction. They have
+              been have to feed over 50 000 children in the Middle East and provide clothing supplies towards the maternity ward and Hujlik Hospital in 
+              Tanzania. Since their impact, SGP has been able to appear has the top 3 company that has changed the world.
+            </p>
+						<p class="overview"><b>2012- Present</b>, Sustainable Growth Partners Impact</p>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+				<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+
+<div id="values">
+<!-- OUR VALUES AND POLICIES-->
+
+<div class="trending">
+  <br>
+    <h2 class="h2">OUR <b>Values and POlicies</b></h2>
+    </div>
+
+    <div class="history">
+      <br><br>
+      <p>Our approach reflects decades of learning and refining, and the 
+        special role Sustainable Grwoth Partners can play side-by-side with partners, communities and decision-makers across the globe.
+        We have years, not decades, to take on the interconnected crises of climate change and biodiversity loss. But by working together, 
+        we’re overcoming barriers to the solutions our planet needs.
+    </p>
+
+    <p style="font-weight:bold;font-size:30px;"> Our Success Starts With You</p>
+
+    <img class="products-logo" src="images/Company-Logo.png">
+
+
+    </div>
+
+
+
+    <div class="values">
+      <br>
+      <div class="container-values">
+        <div class="row">
+          <div class="column">
+            <img class="images-values" src="images/flowers-purple.jpg" alt="'flowers">
+          </div>
+
+          <div class="column">
+            <div class="column-content">
+            <h1>OUR CORE VALUES</h1>
+            <li> To be accountable to each other, to the mission, to our donors, members and partners</li>
+            <li> Treat our partners and colleagues with fairness and honesty</li>
+            <li> Create a day to day workplace climate that welcomes and encourages each of us, valuing the contributions of all</li>
+            <li> We develop breakthrough ideas, forge new paths to conservation funding, guide game-changing decisions and amplify local and Indigenous leadership.</li>
+          </div>
+          </div>
+        
+
+        </div>
+        <br>
+
+        <div class="row">
+        
+
+          <div class="column">
+          
+            <div class="column-content">
+            <h1>OUR POLICIES</h1>
+            <li> Supporting the recycling bill. SGB partners up with local charities to clean any litter.</li>
+            <li> Act with continuity of purpose in everything we do, from the focus of our conservation efforts to the allocation of our resources</li>
+            <li>Conduct our business in an environmentally sensitive manner</li>
+            <li>Work collaboratively with all sectors of society, including Indigenous Peoples, to develop practical conservation solutions. </li>
+          </div>
+          </div>
+        
+
+          <div class="column">
+            <img class="images-values" src="images/background-about.jpg" alt="women picking plants">
+          </div>
+
+        </div>
+        <br>
+      </div>
+      <br>
+    </div>
+    </div>
+
+    <div id="testimonials">
+
+   <!-- TESTIMONIALS -->
+
+    
+
+    <div class="trending">
+      <br>
+        <h2 class="h2">OUR <b>Testimonials</b></h2>
+        </div>
+
+    <div class="history">
+      <br><br>
+      <p>Discover what our members and volunteers have to say about their experience at Sustainable Growth Partners since the development.
+        As a company, we value feedback from our fellow members to meet our priority of creating a healthy and positive work environement.We have been
+        able to gather a few testimonials from one of our best volunteers to share their insights on the company and their impact.
+    </p>
+    </div>
+    <br>
+
+    <!-- COMPANY RATINGS -->
+    
+    <div class="ratings">
+    
+    <div class="row">
+      <div class="col">
+
+        <img src="images/customer-service.png" alt="computer">
+        <p class="rates"> 80% Customer Service</p>
+      </div>
+
+      <div class="col">
+        <img src="images/standards.png" alt="building">
+        <p class="rates"> 76% Bulding Standards</p>
+      </div>
+
+      <div class="col">
+        <img src="images/conservation.png" alt="trees">
+        <p class="rates"> 89% Conservation Drives</p>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- TESTIMONIALS -->
+
+    <div class="container-testimonial">
+
+      <div class="row-testimonial">
+
+        <div class="col-testimonial">
+          <div id="content">
+            <div class="testimonial">
+            <blockquote>
+         
+              My journey at Sustainable Growth Partners has been a great one especially during Charity Week. I have been able to grow
+              as an individual because of the training that has been provided by the enviromental team.
+            </blockquote>
+            <div></div>
+            <p>
+            Filipe Hugh &mdash; Volunteer, Charity Week
+            </p>
+            </div>
+            </div>
+        </div>
+
+
+        
+        
+        <div class="col-testimonial">
+          <div id="content">
+            <div class="testimonial">
+            <blockquote>
+           
+              In my 10 years of being a Project Manager, my experience at Sustainable Growth Partners has been one of the best ones yet. 
+              The company has enabled me to explore different aspects nature through biodiversity and net zero policies.
+            </blockquote>
+            <div></div>
+            <p>
+            Jollene Haje &mdash; Project Manager
+            </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-testimonial">
+          <div id="content">
+            <div class="testimonial">
+            <blockquote>
+           
+              Being an environemtalist at this company has been one of my biggest accomplishments in my career. I have been able to showcase
+              my abilities especially through the company's conservation and biodiversity activities. 
+            </blockquote>
+            <div></div>
+            <p>
+            Mary Holland &mdash; Environemtalist, Biodiversity
+            </p>
+            </div>
+            </div>
+        </div>
+
+
+       
+      </div>
+
+  
+
+      <div class="row-testimonial">
+
+        <div class="col-testimonial">
+          <div id="content">
+            <div class="testimonial">
+            <blockquote>
+           
+            At only 16 years old, I have been able to make a positive impact in most communities by being part of Sustainable Growth Partners.
+            Not only has the company enabled me to start my own charity but it has enhanced my interpersonal skills.
+            </blockquote>
+            <div></div>
+            <p>
+           Julie Kate &mdash; Volunteer , Community Reach Week
+            </p>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="col-testimonial">
+          <div id="content">
+            <div class="testimonial">
+            <blockquote>
+           
+              As a software developer, I never thought I would see myself working for one of the biggest sustainability company's in the world. 
+              SGP has enabled me to develop systems that have helped 400 homeless people find jobs.
+            </blockquote>
+            <div></div>
+            <p>
+            Dave Johnson &mdash; IT Support
+            </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-testimonial">
+
+        <div id="content">
+          <div class="testimonial">
+          <blockquote>
+         I am an all rounder volunteer at Sustainable Growth Partners who has been able to change the lives of over 5000 children. My journey at
+         the compant has been  my biggest walk of life as I have dedicated my time to restoring biodiversity.
+          </blockquote>
+          <div></div>
+          <p>
+          Beata Polene &mdash; Volunteer, All Rounder
+          </p>
+          </div>
+          </div>
+
+          </div>
+      </div>
+        
+      </div>
+      </div>
+
+      <!--End of Testimonials-->
+
+
+      <div id="donate">
+      <!-- DONATE SECTION-->
+    <br>
+
+    
+
+    <div class="donate-form">
+
+      <div class="row-form">
+  
+        <div class="col-form">
+  
+          <img src="images/donation-img.avif" alt="donation-cartoon image">
+        </div>
+  
+        <div class="col-form">
+          <div class="container contact-form">
+  
+            <div class="trending-donate">
+              <br>
+                
+              <h2 class="h2">GIVE BACK <b> BE A HERO</b></h2>
+               
+            </div>
+          <form method="post">
+          
+            <div class="row">
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required>
+                     </div>
+                     <div class="form-group">
+                         <input type="email" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required >
+                     </div>
+                     <div class="form-group">
+                         <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" required>
+                     </div>
+                     <div class="form-group">
+                         <input type="submit" name="btnSubmit" class="btnContact" value="Donate" >
+                     </div>
+          
+                     
+                 </div>
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <textarea name="txtMsg" class="form-control" placeholder="Please specify what you would like to donate *" style="width:auto; height: 150px;" required></textarea>
+                     </div>
+                 </div>
+             </div>
+          </form>
+          
+        </div>
+        </div>
+      </div>
+  
+    </div>
+    </div>
+
+
+    <!-- OUR TEAM SECTION-->
+
+    <div id="people">
+
+  <div class="get-involved">
+
+    <br><br><br><br>
+
+    <div class="contact-form">
+
+    <div class="trending">
+      <br>
+        
+      <h2 class="h2">Our <b> People</b></h2>
+       
+    </div>
+    </div> 
+
+  </div>
+
+
+  <!--OUR PEOPLE-->
+
+
+
+  <div class="history">
+    <br><br>
+    <p>We’re a small (but mighty!) team, where everyone is an active contributor towards our goal of building a more sustainable world. Everyone — you, me, we — is on their own unique sustainability journey, where we’re constantly learning as we go. 
+      For our part, we’re eager to share what we’ve discovered with you, your neighbor, your cat, or anyone who will listen, really.
+  </p>
+  </div>
+  
+  <br>
+    
+  <h2 class="h2">Excecutive <b> leadership</b></h2>
+   
+
+  <div class="ourpeople">
+    <div class="row-people">
+      <div class="col-people">
+
+        <div class="card">
+        <img src="images/ceo.jpg" width="100" class="rounded-circle" alt="CEO">
+            
+        <h3 class="mt-2">Maria Samantha</h3>
+        <span class="mt-1 clearfix">Chief Excecutive Officer</span>
+        <small class="mt-4">Responsible for setting and excecuting the organizations strategy</small>
+        
+        <div class="social-buttons mt-5"> 
+          <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+          <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+          <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+          <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+           
+             
+        </div>
+    
+      </div>
+    </div>
+
+    <div class="col-people">
+
+      <div class="card">
+        <img src="images/coo.jpg" width="100" class="rounded-circle" alt="COO">
+            
+        <h3 class="mt-2">Simon Disa</h3>
+        <span class="mt-1 clearfix">Chief Operating Officer</span>
+        <small class="mt-4">Responsible for building and overseeing the executive team</small>
+        
+        <div class="social-buttons mt-5"> 
+          <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+          <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+          <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+          <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+           
+            
+        </div>
+  
+    </div>
+  </div>
+
+  <div class="col-people">
+
+    <div class="card">
+   <img src="images/project-manager.jpg" width="100" class="rounded-circle" alt="'Project Manager">
+            
+            <h3 class="mt-2">Blayke Smith</h3>
+            <span class="mt-1 clearfix">Project Manager</span>
+            <small class="mt-4">Responsible for defining project objectives and developing comprehensive plans.</small>
+            
+            <div class="social-buttons mt-5"> 
+              <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+              <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+              <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+              <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+               
+            
+            </div>
+       
+         
+    </div>
+
+  </div>
+
+
+<div class="col-people">
+
+  <div class="card">
+  <img src="images/activity-coodinator.jpg" width="100" class="rounded-circle" alt="Activity Coordinator">
+      
+  <h3 class="mt-2">Rosa Whitney</h3>
+  <span class="mt-1 clearfix">Activity Coordinator</span>
+  <small class="mt-4">Responsible for setting and excecuting the organizations volunteer and donation weeks.</small>
+  
+  <div class="social-buttons mt-5"> 
+    <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+    <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+    <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+    <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+     
+       
+  </div>
+
+</div>
+</div>
+  </div>
+
+  <!-- END OF THE FIRST ROW FOR TEAM MEMBERS-->
+
+  <!--BEGINNING OF THE SECOND ROW WITH MEMBER DETAILS-->
+  <br><br><br>
+
+  <div class="row-people">
+    <div class="col-people">
+
+      <div class="card">
+          
+      <img src="images/environmentalist.jpg" width="100" class="rounded-circle" alt="Environmentalist">
+      
+      <h3 class="mt-2">Olivia Kate</h3>
+      <span class="mt-1 clearfix">Environmentalist</span>
+      <small class="mt-4">Responsible for conducting tests, writing proposals or grants and raising environmental awareness.</small>
+      
+      <div class="social-buttons mt-5"> 
+          <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+          <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+          <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+          <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+           
+      </div>
+  
+    </div>
+  </div>
+
+  <div class="col-people">
+
+    <div class="card">
+      <img src="images/financial manager.jpg" width="100" class="rounded-circle" alt="Financial Manager">
+      <h3 class="mt-2">Xia Long</h3>
+      <span class="mt-1 clearfix">Financial Manager</span>
+      <small class="mt-4">Responsible for creating financial reports, developing and implementing financial strategies.</small>
+      
+      <div class="social-buttons mt-5"> 
+        <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+        <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+        <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+        <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+         
+          
+      </div>
+  </div>
+</div>
+
+<div class="col-people">
+
+  <div class="card">
+ 
+          
+ <img src="images/IT Manager.jpg" width="100" class="rounded-circle" alt="IT Manager">
+      
+ <h3 class="mt-2">John Smith</h3>
+ <span class="mt-1 clearfix">IT Manager</span>
+ <small class="mt-4">Responsibible for coordinating, planning and leading computer-related activities within the organization.</small>
+ 
+ <div class="social-buttons mt-5"> 
+   <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+   <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+   <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+   <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+    
+ 
+ </div>
+     
+       
+  </div>
+
+</div>
+
+
+<div class="col-people">
+
+<div class="card">
+<img src="images/hiring-manager.jpg" width="100" class="rounded-circle" alt="Hiring Manager">
+    
+<h3 class="mt-2">Mary Jane</h3>
+<span class="mt-1 clearfix">Hiring Manager</span>
+<small class="mt-4">Responsible for recuiting one of the best team members and volunteers that allow the organization to thrive</small>
+
+<div class="social-buttons mt-5"> 
+  <button class="neo-button"><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook fa-1x"></i></a> </button> 
+  <button class="neo-button"><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></button> 
+  <button class="neo-button"><a href="https://google.com" target="_blank"><i class="fa fa-google fa-1x"></i></a> </button> 
+  <button class="neo-button"><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube fa-1x"></i> </a></button> 
+   
+     
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- END OF THE TEAM SECTION-->
+
+
+
+  
+
+<!-- OUR VOLUNTEERS-->
+
+
+  <br>
+    
+  <h2 class="h2">Meet Our <b> Volunteers</b></h2>
+
+  <div class="container-volunteers">
+
+    <div class="row-volunteers">
+
+      <div class="column-volunteers">
+        <img src="images/volunteers1.jpg" alt="Biodiversity Volunteers">
+      </div>
+
+      <div class="column-volunteers">
+        <br><br><br>
+        <h1 class="intro"> CREATING GREENER SPACES EVERYDAY</h1>
+        <h1> Biodivesity and Nature Volunteers</h1>
+        <p>We’re responsible for conserving our natural resources while we still have time. We invest over 20 hours every week to 
+          visit animals that are at risk of extincition and provide knowledge on the adverse effects of using resources that
+          are at risk of extinction. Our team has been able to save pandas throught protests every week.
+      </p>
+
+      </div>
+    </div>
+
+
+<br><br>
+    <div class="row-volunteers">
+
+
+      <div class="column-volunteers">
+        <br><br><br>
+        <h1 class="intro"> STRENGTHNENING FOOD SECURITY </h1>
+        <h1> Food Security Volunteers</h1>
+        <p>We’re a small (but mighty!) team that is responsible for collecting food donations in from organisations and supermarkets with a 
+          goal of feeding those in need. We have been able to feed over 3000 people from donations we receive each week and have since reduced malnutrition
+          rates by 50%.
+      </p>
+
+      </div>
+
+      <div class="column-volunteers">
+        <img src="images/Food Security.jpg" alt="Food Security Volunteers">
+      </div>
+
+     
+    </div>
+
+    <br><br>
+
+    <div class="row-volunteers">
+
+      <div class="column-volunteers">
+        <img src="images/Recycling Volunteers.jpg" alt="Recycling Volunteers">
+      </div>
+
+      <div class="column-volunteers">
+        <br><br><br>
+        <h1 class="intro">KEEP OUR LAND CLEAN AT ALL TIMES</h1>
+        <h1>Recycling Volunteers</h1>
+        <p>We’re the recycling team, we are responsible for keeping our environment clean at all costs. We spent over 40 hours per week
+          recycling materials such as plastic and boxes which are in turn used to produce some of our leading products.
+      </p>
+
+      </div>
+    </div>
+  </div>
+  </div>
+   
+  <br>
+
+
+
+
+ <!-- FOOTER DESIGN-->
+      
+ <footer class="new_footer_area bg_color">
+  <div class="new_footer_top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Stay Updated to Our Blog</h3>
+                      <p>Don’t miss any updates on our conservation adventures!</p>
+                      <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                          <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                          <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                          <p class="mchimp-errmessage" style="display: none;"></p>
+                          <p class="mchimp-sucmessage" style="display: none;"></p>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Explore</h3>
+                      <ul class="list-unstyled f_list">
+                          <li><a href="sustainable_fashion.html">Eco Friendly Fashion</a></li>
+                          <li><a href="earthly_eats.html">Sustainable Food System</a></li>
+                          <li><a href="zero-waste.html">Waste Management</a></li>
+                          <li><a href="products.html">Our Products and Services</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Get to Know Us</h3>
+                      <ul class="list-unstyled f_list">
+                        <li><a href="aboutus.html#linked-history">Our History</a></li>
+                        <li><a href="aboutus.html#values">Our Values and Policies</a></li>
+                        <li><a href="index.html#faq">Frequently Asked Questions</a></li>
+                        <li><a href="aboutus.html#people">Our Team</a></li>
+                          
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Contact Us</h3>
+                      <div class="f_social_icon">
+                          <a href="https://facebook.com" target = "_blank" class="fab fa-facebook"></a>
+                          <a href="https://twitter.com" target = "_blank" class="fab fa-twitter"></a>
+                          <a href="https://github.com" target = "_blank" class="fab fa-github"></a>
+                          <a href="https://linkedin.com" target = "_blank" class="fab fa-linkedin"></a>
+                          <a href="https://gmail.com" target="_blank" class="fa-solid fa-envelope"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer_bg">
+          <div class="footer_bg_one"></div>
+          <div class="footer_bg_two"></div>
+      </div>
+  </div>
+  <div class="footer_bottom">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-7">
+                  <p class="mb-0 f_400">© sustainablegrowthpartners.. 2024 All rights reserved.</p>
+              </div>
+              <div class="col-lg-6 col-sm-5 text-right">
+                  <p>Made with <i class="icon_heart"></i>  <a href="index.html">SustainableGrowthPartners</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+  </body>
+  </html>
+
+  <!--END OF ABOUT US PAGE-->
+
+
+
+      
